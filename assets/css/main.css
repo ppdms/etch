@@ -94,6 +94,7 @@ main#content h6 + p {
 
 main#content p {
     color: #394548;
+    text-align: justify;
     margin: 16px 0;
 }
 
