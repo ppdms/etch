@@ -282,7 +282,7 @@ footer#footer {
     margin: 20px 0;
 }
 
-main#content .hi-svg-inline {
+.hi-svg-inline {
   vertical-align: -0.25rem;
   margin-right: 0.15vw;
 }
