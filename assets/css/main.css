@@ -279,5 +279,10 @@ footer#footer {
     font-size: 1.4rem;
     font-weight: 400;
     color: #b3b3b3;
-    margin: 40px 0;
+    margin: 20px 0;
+}
+
+.hi-svg-inline {
+  vertical-align: -0.25rem;
+  margin-right: 0.15vw;
 }
