@@ -202,6 +202,8 @@ main#content #toc ol li:before {
 
 main#content img {
     max-width: 100%;
+    height: auto;
+    display: block;
     margin: 0 auto;
 }
 
@@ -282,7 +284,17 @@ footer#footer {
     margin: 20px 0;
 }
 
-.hi-svg-inline {
+main#content .hi-svg-inline {
   vertical-align: -0.25rem;
   margin-right: 0.15vw;
 }
+
+main#content .instagram-media {
+    max-width: 100% !important; /* Override inline styles */
+    width: 100% !important; /* Override inline styles */
+    min-width: 100% !important; /* Override inline styles */
+    margin: 6px auto !important; /* Center the embed and add top margin */
+    padding: 0 !important; /* Remove any padding */
+    box-sizing: border-box !important; /* Ensure padding is included in width */
+}
+

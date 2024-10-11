@@ -49,4 +49,15 @@ main#content pre {
     margin-left: -3.8%;
     padding: 1.5rem 2.2rem;
 }
+
+main#content .instagram-media {
+    max-width: 108% !important; /* Override inline styles */
+    width: 108% !important; /* Override inline styles */
+    min-width: 108% !important; /* Override inline styles */
+    margin: 6px auto !important; /* Center the embed and keep top margin */
+    padding: 0 !important; /* Remove any padding */
+    margin-left: -3.8% !important;
+    box-sizing: border-box !important; /* Ensure padding is included in width */
+}
+
 }
