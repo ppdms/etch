@@ -1,4 +1,6 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
     box-sizing: border-box;
 }
 
@@ -83,12 +85,12 @@ main#content h3 {
     font-size: 1.9rem;
 }
 
-main#content h1 + p,
-main#content h2 + p,
-main#content h3 + p,
-main#content h4 + p,
-main#content h5 + p,
-main#content h6 + p {
+main#content h1+p,
+main#content h2+p,
+main#content h3+p,
+main#content h4+p,
+main#content h5+p,
+main#content h6+p {
     margin-top: 5px;
 }
 
@@ -149,7 +151,7 @@ main#content header#post-header h1 {
     line-height: 1.15;
 }
 
-main#content header#post-header > div {
+main#content header#post-header>div {
     display: block;
     font-size: 0.85em;
     color: #767676;
@@ -173,11 +175,13 @@ main#content #toc nav#TableOfContents {
     margin-top: 4px;
 }
 
-main#content #toc nav#TableOfContents > ul, main#content #toc nav#TableOfContents > ol {
+main#content #toc nav#TableOfContents>ul,
+main#content #toc nav#TableOfContents>ol {
     margin-left: -40px;
 }
 
-main#content #toc ul, main#content #toc ol {
+main#content #toc ul,
+main#content #toc ol {
     font-size: 0.98em;
     margin: 0;
     padding: 0 0 0 40px;
@@ -285,16 +289,21 @@ footer#footer {
 }
 
 main#content .hi-svg-inline {
-  vertical-align: -0.25rem;
-  margin-right: 0.15vw;
+    vertical-align: -0.25rem;
+    margin-right: 0.15vw;
 }
 
 main#content .instagram-media {
-    max-width: 100% !important; /* Override inline styles */
-    width: 100% !important; /* Override inline styles */
-    min-width: 100% !important; /* Override inline styles */
-    margin: 6px auto !important; /* Center the embed and add top margin */
-    padding: 0 !important; /* Remove any padding */
-    box-sizing: border-box !important; /* Ensure padding is included in width */
+    max-width: 100% !important;
+    /* Override inline styles */
+    width: 100% !important;
+    /* Override inline styles */
+    min-width: 100% !important;
+    /* Override inline styles */
+    margin: 6px auto !important;
+    /* Center the embed and add top margin */
+    padding: 0 !important;
+    /* Remove any padding */
+    box-sizing: border-box !important;
+    /* Ensure padding is included in width */
 }
-
